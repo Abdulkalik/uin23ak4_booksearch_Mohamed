@@ -28,11 +28,14 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  flex-direction:row-reverse;
+  justify-content:space-around
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  display: flex;
 }
 
 button {
@@ -65,4 +68,8 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+.container {
+  display: flex;
+  justify-content: center;
 }
