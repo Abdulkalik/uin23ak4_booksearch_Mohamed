@@ -7,7 +7,8 @@ function SearchResults({ results }) {
         <BookCard key={book.key} book={book} />
       ))}
     </div>
-  );
+    
+    );
 }
 
 export default SearchResults;

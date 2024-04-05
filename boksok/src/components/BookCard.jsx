@@ -16,7 +16,7 @@ function BookCard({ book }) {
       <h2>{title}</h2>
       <p>Author: {author_name}</p>
       <p>First Published: {first_publish_year}</p>
-      <p>Average Rating: {average_rating}</p>
+      <p>Gjennomsnittlig rating: {book.ratings_average || "N/A"}</p>
       {/* Link til å søke amazon */}
       <a href={amazonUrl} target="_blank" rel="noopener noreferrer">
         Search on Amazon
